@@ -1,5 +1,6 @@
 # Profanity filter Helm charts
 [![MIT license](https://img.shields.io/github/license/huscker/profanity-filter-docker)](https://github.com/huscker/profanity-filter-docker/blob/main/LICENSE)
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/profanity-filter)](https://artifacthub.io/packages/search?repo=profanity-filter)
 
 This repo collects a set of [Helm](https://helm.sh) charts for deploying [Profanity filter service](https://github.com/huscker/profanity-filter-docker). 
 
