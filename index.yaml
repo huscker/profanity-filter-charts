@@ -3,6 +3,31 @@ entries:
   profanity-filter-docker:
   - apiVersion: v2
     appVersion: 0.1.1
+    created: "2024-10-22T04:07:38.32149454Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.9.13
+    description: A Helm chart for deploying profanity filter service
+    digest: 71f9a4bd7148a3997e9b3534d772671f22ea5acc3f5b7386acb17bca89463c6b
+    keywords:
+    - profanity
+    kubeVersion: '>= 1.27.0'
+    maintainers:
+    - email: egostalker03@mail.ru
+      name: Egor Golubev
+      url: https://github.com/huscker/profanity-filter-docker
+    name: profanity-filter-docker
+    type: application
+    urls:
+    - profanity-filter-docker-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.1
     created: "2024-10-22T03:58:11.74541426Z"
     dependencies:
     - name: common
@@ -51,4 +76,4 @@ entries:
     urls:
     - https://huscker.github.io/profanity-filter-docker/packages/profanity-filter-docker-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-22T03:58:11.745429107Z"
+generated: "2024-10-22T04:07:38.321510159Z"
